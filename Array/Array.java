@@ -4,6 +4,7 @@ public class Array{
 
         for(int i=0;i<Arr.length;i++){
             System.out.print(Arr[i] + " ");
+            System.out.println("New");
         }
     }
 }

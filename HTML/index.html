@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 class="title">Student Registration Form</h2>
+    <form class="Registration-form">
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name = "fname" maxlength="30" required>(max 30 characters and A-Z)
+                </td>
+            </tr>
+                <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name = "lname" maxlength="30" required>(max 30 characters and A-Z)
+                </td>
+
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td>
+                   <select name ="day" >
+                    <option>day:</option>
+                    <script>
+                        for(let i=1;i<=31;i++)document.write(`<option>${i}</option>`);
+                    </script>
+                   </select>
+                   <select name="month">
+                     <option >jan</option> 
+                     <option >feb</option>  
+                     <option >mar</option> 
+                     <option >apr</option> 
+                     <option >may</option> 
+                     <option >june</option> 
+                     <option >july</option> 
+                     <option >aug</option> 
+                     <option >sept</option> 
+                     <option >oct</option> 
+                     <option >nov</option> 
+                     <option >dec</option> 
+
+
+                   </select>
+
+                   <select name="year">
+                        <option>Year:</option>
+                        <script>
+                            for(let y=2000;y<=2025;y++)document.write(`<option>${y}</option>`);
+                        </script>
+                        </select>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>EMAIL ID</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>MOBILE NUMBER</td>
+                <td><input type="text" name="mobile" maxlength="10" required>(10 digit number)</td>
+            </tr>
+            <tr>
+
+                <tr>    </tr>
+               <td>
+                <input type="ratio" name="Gender"  value="male"> male
+                <input type="radio" name="gender" value="Female"> Female
+               </td>
+               <tr>
+                <td>ADDRESS</td>
+                <td><textarea rows="3" cols="40"></textarea></td>
+            </tr>
+             <tr>
+                <td>City</td>
+                <td><input type="text" maxlength="30"> (max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>pincode</td>
+                <td><input type="text" maxlength="6">6 digit number</td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text" maxlength="30">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>County</td>
+                <td><input type="text" value="India" readonly"></td>
+            </tr>
+            <tr>
+                <td>Hobbis</td>
+                <td>
+                    <input type="checkbox"> Drawing
+                    <input type="checkbox"> signing
+                    <input type="checkbox"> dancing
+                    <input type="checkbox"> sketching
+                    <input type="checkbox"> other <input type="text" maxlength="30">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>Qulification</td>
+                <td>
+                     <table border="1" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <th>Sl.No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <td>1</td><td>Class X</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="text" maxlength="5"></td>
+                            <td><input type="text" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td><td>Class XII</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="text" maxlength="5"></td>
+                            <td><input type="text "maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td><td>Grudation</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="text" maxlength="5"></td>
+                            <td><input type="text "maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td><td>Master</td>
+                            <td><input type="text" maxlength="10"></td>
+                            <td><input type="text" maxlength="5"></td>
+                            <td><input type="text "maxlength="4"></td>
+                        </tr>
+                     </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Cources Appiled for</td>
+                <td>
+                     <input type="radio" name="course"> BCA
+                     <input type="ratio" name="course"> B.COM
+                      <input type="ratio" name="course"> B.SC
+                       <input type="ratio" name="course"> B.A
+
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit" class="btn">
+                    <input type="reset" value="reset" class="btn">
+                </td>
+            </tr>
+        </table>
+    </form>  
+</body>
+</html>

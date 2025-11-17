@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin:auto;
+    border: 1px solid black;
+}
+.heding{
+    color: rgb(9, 2, 2);
+    border: 5px solid orange;
+    
+}
+.hero{
+    width: 100%;
+    height: 150px;
+
+}
+.hero img{
+   position: fixed;
+   image-rendering: auto;
+
+}
+.features{
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+
+}
+.features img{
+    image-rendering: auto;
+}

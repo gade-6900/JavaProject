@@ -1,0 +1,64 @@
+*{
+
+}
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+
+}
+.title{
+    text-align: center;
+    color: rgb(38, 25, 25);
+    text-decoration: underline;
+    margin-top: 20px;
+
+}
+.Registration-form{
+    background-color: #6f5cef;
+    width: 1150px;
+    margin: 10px auto ;
+    padding: 10px 20px;
+     border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+}
+.table{
+    width: 100%;
+}
+.td{
+    vertical-align: top;
+    padding: 8px;
+}
+input[type="text"], input[type="email"], select, textarea {
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.textarea{
+    resize: none;
+}
+input[type="submit"], input[type="reset"]{
+    background: white;
+    color: #726b9d;
+    border: none;
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #ddd;
+}
+table[border]{
+    background: white;
+    color: black;
+    width: 100%;
+    border-collapse: collapse;
+}
+table[border] th , table[border]td{
+    border: 1px solid;
+    text-align: center;
+}

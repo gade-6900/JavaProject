@@ -1,0 +1,60 @@
+inheritance means trasfrom properties from one class 
+to another class its called inherotance the superclass 
+provide properties to subclass 
+
+there are type of inheritance 
+1. single level :- in single level one super class and one subclas are present
+ex: ---
+    class Animal {
+        void eat() {
+            System.out.println("Eating...");
+        }
+    }
+
+    class Dog extends Animal {
+        void bark() {
+            System.out.println("Barking...");
+        }
+    }
+
+2. multi-level inheritance:- multi level inheritance means there are one superclass 
+and one class inherite from another class.
+ex:-  
+    class Grandparent {
+        void wealth() {
+            System.out.println("Grandparent's wealth");
+        }
+    }
+
+    class Parent extends Grandparent {
+        void property() {
+            System.out.println("Parent's property");
+        }
+    }
+
+    class Child extends Parent {
+        void toys() {
+            System.out.println("Child's toys");
+        }
+    }
+
+
+3. Hierarchical Inheritance:- multiple sublasses inherite from one superclass ..
+    class Vehicle {
+        void start() {
+            System.out.println("Vehicle started");
+        }
+    }
+
+    class Car extends Vehicle {
+        void drive() {
+            System.out.println("Car driving");
+        }
+    }
+
+    class Bike extends Vehicle {
+        void ride() {
+            System.out.println("Bike riding");
+        }
+    }
+

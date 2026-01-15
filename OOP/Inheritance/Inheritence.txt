@@ -1,4 +1,4 @@
-inheritance means trasfrom properties from one class 
+Inheritance means trasfrom properties from one class 
 to another class its called inherotance the superclass 
 provide properties to subclass 
 
@@ -16,7 +16,7 @@ ex: ---
             System.out.println("Barking...");
         }
     }
-
+------------------------------------------------------------------------------------------------------------------------
 2. multi-level inheritance:- multi level inheritance means there are one superclass 
 and one class inherite from another class.
 ex:-  
@@ -38,7 +38,7 @@ ex:-
         }
     }
 
-
+-----------------------------------------------------------------------------------------------------------------------
 3. Hierarchical Inheritance:- multiple sublasses inherite from one superclass ..
     class Vehicle {
         void start() {
@@ -57,4 +57,119 @@ ex:-
             System.out.println("Bike riding");
         }
     }
+--------------------------------------------------------------------------------------------------------------------
 
+4. Hybrid Inheritance:-- 
+this is the combination of two or more types of inheritance     
+classes is not allowed to achive Hybrid inheritance in java using interfaces to combine diffrent 
+interfaces pattern 
+
+
+
+5. Multiple Inheritance (through Interfaces):-- Java does not support multiple inheritance with classes to avoid 
+the "diamond problem." However, it achieves a form of multiple inheritance through interfaces,
+ where a class can implement multiple interfaces.
+ ex:----
+     interface Flyable {
+        void fly();
+    }
+
+    interface Swimmable {
+        void swim();
+    }
+
+    class Duck implements Flyable, Swimmable {
+        public void fly() {
+            System.out.println("Duck flying");
+        }
+
+        public void swim() {
+            System.out.println("Duck swimming");
+        }
+    }
+ ----------------------------------------------------------------------------------------------------------
+ Super Keyword:---
+ The super keyword refers to superclass (parent) objects.
+It is used to call superclass methods, and to access the superclass constructor.
+The most common use of the super keyword is to eliminate the confusion between superclasses and
+subclasses that have methods with the same name.   
+
+ex:--
+class Animal { // Superclass (parent)
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
+
+class Dog extends Animal { // Subclass (child)
+  public void animalSound() {
+    super.animalSound(); // Call the superclass method
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+public class Main {
+  public static void main(String args[]) {
+    Animal myDog = new Dog(); // Create a Dog object
+    myDog.animalSound(); // Call the method on the Dog object
+  }
+}
+
+--------------------------------------------------------------------------------------------------------------
+Final Keyword:--
+Finalis non access specifier and we can use with variable function and classes .
+
+Final variable:-
+fianl variable means we can not modify the value if we want to declear constant in java we have to use final Keyword
+
+ex public class FinalApp{
+    public static  void main(String args[]){
+        final int a 100;
+        ++a;
+
+        System.out.println("A is :"+ a);
+    }
+}
+-----------------------------------------------------------------------------------------------------------
+Final class:-- final class means class cannot inherit in any another class 
+Final class always to create immutable classes in JAVA
+
+ex:- 
+final class A{
+
+}
+class B extends B{
+
+}
+public class FinalApp{
+    public static void main(String args[]){
+        B b1 = new B();
+    }
+}
+in the above code we have get compile time error because we try inherit frin class A but
+ we can no tinherit the final class 
+so we get compile time error
+-------------------------------------------------------------------------------------------------------------
+Final Methos: ---
+final method means method can not override in the chlid class.
+--------------------------------------------------------------------------------------------
+Method Overloading:-- 
+Method overriding means when we define a method in parent class and redefine the same method again
+ in child class called method overriding.When we override the any method from parent class to 
+ child class then signature of parent method must be match with child  method means return type 
+ of method , name of method ,parameter type , parameter list or parameter sequence must be same 
+
+ ex:-
+
+ class A{
+    void show(){
+        System.out.println("I am parent ");
+    }
+ }
+ class B extends A{
+    void show(){
+        Sytsem.out.println("i am child");
+    }
+ }
+
+ 

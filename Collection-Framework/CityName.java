@@ -20,4 +20,5 @@ public class CityName{
             System.out.print(c+ " ");
         }
     }
-}
+} 
+

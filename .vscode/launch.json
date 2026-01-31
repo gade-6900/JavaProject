@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SquareHollowPattern",
+            "request": "launch",
+            "mainClass": "SquareHollowPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NumberTrianglePattern",
+            "request": "launch",
+            "mainClass": "NumberTrianglePattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NumberIncreasingPyramidPattern",
+            "request": "launch",
+            "mainClass": "NumberIncreasingPyramidPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NumberIncreasingReversePyramidPattern",
+            "request": "launch",
+            "mainClass": "NumberIncreasingReversePyramidPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NumberChangingPyramidPattern",
+            "request": "launch",
+            "mainClass": "NumberChangingPyramidPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ZeroOneTrianglePattern",
+            "request": "launch",
+            "mainClass": "ZeroOneTrianglePattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeTrianglePattern",
+            "request": "launch",
+            "mainClass": "PalindromeTrianglePattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RhombusPattern",
+            "request": "launch",
+            "mainClass": "RhombusPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "DiamondStarPattern",
+            "request": "launch",
+            "mainClass": "DiamondStarPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ButterflyStarPattern",
+            "request": "launch",
+            "mainClass": "ButterflyStarPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "SquareFillPattern",
+            "request": "launch",
+            "mainClass": "SquareFillPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RightHalfPyramidPattern",
+            "request": "launch",
+            "mainClass": "RightHalfPyramidPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ReverseRightHalfPyramidPattern",
+            "request": "launch",
+            "mainClass": "ReverseRightHalfPyramidPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLeftHalfPyramidPattern",
+            "request": "launch",
+            "mainClass": "ReverseLeftHalfPyramidPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "TriangleStarPattern",
+            "request": "launch",
+            "mainClass": "TriangleStarPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumberTrianglePattern",
+            "request": "launch",
+            "mainClass": "ReverseNumberTrianglePattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "HollowTrianglePattern",
+            "request": "launch",
+            "mainClass": "HollowTrianglePattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "HollowReverseTrianglePattern",
+            "request": "launch",
+            "mainClass": "HollowReverseTrianglePattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "HollowDiamondPyramid",
+            "request": "launch",
+            "mainClass": "HollowDiamondPyramid",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "HollowHourglassPattern",
+            "request": "launch",
+            "mainClass": "HollowHourglassPattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Pascletriangle",
+            "request": "launch",
+            "mainClass": "Pascletriangle",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RightPascalsTriangle",
+            "request": "launch",
+            "mainClass": "RightPascalsTriangle",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Kpattern",
+            "request": "launch",
+            "mainClass": "Kpattern",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "CheckExist",
+            "request": "launch",
+            "mainClass": "CheckExist",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RemoveSpace",
+            "request": "launch",
+            "mainClass": "RemoveSpace",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Replace",
+            "request": "launch",
+            "mainClass": "Replace",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "CountFreq",
+            "request": "launch",
+            "mainClass": "CountFreq",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeStr",
+            "request": "launch",
+            "mainClass": "PalindromeStr",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RevStr",
+            "request": "launch",
+            "mainClass": "RevStr",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "DLS",
+            "request": "launch",
+            "mainClass": "DLS",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "countConso",
+            "request": "launch",
+            "mainClass": "countConso",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "countVowel",
+            "request": "launch",
+            "mainClass": "countVowel",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "FindLenOfString",
+            "request": "launch",
+            "mainClass": "FindLenOfString",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RandW",
+            "request": "launch",
+            "mainClass": "RandW",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "MultipleInheritance",
+            "request": "launch",
+            "mainClass": "MultipleInheritance",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "CatchWithout",
+            "request": "launch",
+            "mainClass": "CatchWithout",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ClassNotFoundexc",
+            "request": "launch",
+            "mainClass": "ClassNotFoundexc",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NumberFormatExc",
+            "request": "launch",
+            "mainClass": "NumberFormatExc",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ArrayOutOfBoundExc",
+            "request": "launch",
+            "mainClass": "ArrayOutOfBoundExc",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NullPointerExc",
+            "request": "launch",
+            "mainClass": "NullPointerExc",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ExeceptionApp",
+            "request": "launch",
+            "mainClass": "ExeceptionApp",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "BankSystem",
+            "request": "launch",
+            "mainClass": "BankSystem",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

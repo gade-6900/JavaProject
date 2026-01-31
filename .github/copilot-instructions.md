@@ -2,13 +2,13 @@
 
 ## Overview
 This repository contains standalone Java programs for practicing various programming concepts, organized by topic folders (e.g., Array, OOP, MultiThreading). Each file is a complete program with a main method.
-
+.
 ## Project Structure
 - **Array/**: Array manipulation and algorithms (e.g., FindMax.java, ReverseArray.java)
 - **Collection-Framework/**: Java collections usage (e.g., List.java with ArrayList/Vector)
 - **OOP/**: Object-oriented programming examples with subfolders for concepts like Inheritance, Polymorphism
 - **MultiThreading/**: Threading examples (e.g., BankSimulation.java, RaceCondition.java)
-- **String/**: String operations
+- **Strinsdfghg/**: String operations
 - **DSA/**: Data structures and algorithms
 - Other folders for specific topics like Exception-Handling, File_Handling
 

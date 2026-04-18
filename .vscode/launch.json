@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDupliacteFromSortedArray",
+            "request": "launch",
+            "mainClass": "Coding_2026.April_2026.April_18.removeDupliacteFromSortedArray",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "ReverseOnlyletter",
             "request": "launch",
             "mainClass": "Coding_2026.April_2026.April_18.ReverseOnlyletter",

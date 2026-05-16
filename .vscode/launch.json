@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RAndW",
+            "request": "launch",
+            "mainClass": "RAndW",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "NegToLeftPosToRight",
+            "request": "launch",
+            "mainClass": "Coding_2026.May_2026.NegToLeftPosToRight",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "MaxabsoluteDiff",
+            "request": "launch",
+            "mainClass": "Coding_2026.May_2026.MaxabsoluteDiff",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "SingletonMain",
+            "request": "launch",
+            "mainClass": "Coding_2026.May_2026.SingletonMain",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Coding_2026.May_2026.Main",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "removeDupliacteFromSortedArray",
             "request": "launch",
             "mainClass": "Coding_2026.April_2026.April_18.removeDupliacteFromSortedArray",

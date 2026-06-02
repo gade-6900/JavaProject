@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Addition",
+            "request": "launch",
+            "mainClass": "June_2026.Addition",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "LonestNumber",
+            "request": "launch",
+            "mainClass": "May2026.LonestNumber",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "May2025.TwoSum",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "SongList",
+            "request": "launch",
+            "mainClass": "TCS_NQT.SongList",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "TCS_NQT.Palindrome",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "TCS_NQT.MoveZeros",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "RAndW",
             "request": "launch",
             "mainClass": "RAndW",

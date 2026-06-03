@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "June_2026.Pattern4",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "June_2026.Pattern3",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "June_2026.Pattern2",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "June_2026.Pattern1",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "CountDigit",
+            "request": "launch",
+            "mainClass": "June_2026.CountDigit",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "sumOfDigit",
+            "request": "launch",
+            "mainClass": "June_2026.sumOfDigit",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "June_2026.PalindromeCheck",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNum",
+            "request": "launch",
+            "mainClass": "June_2026.ReverseNum",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "Addition",
             "request": "launch",
             "mainClass": "June_2026.Addition",

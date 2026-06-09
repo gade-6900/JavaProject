@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countVowel",
+            "request": "launch",
+            "mainClass": "June_2026.countVowel",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "palindromeString",
+            "request": "launch",
+            "mainClass": "June_2026.palindromeString",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RevString",
+            "request": "launch",
+            "mainClass": "June_2026.RevString",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Pyd",
+            "request": "launch",
+            "mainClass": "June_2026.Pyd",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "TwoSum",
             "request": "launch",
             "mainClass": "June_2026.TwoSum",

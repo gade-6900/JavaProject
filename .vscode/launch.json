@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FilterData",
+            "request": "launch",
+            "mainClass": "June_2026.FilterData",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "LambdaApp",
+            "request": "launch",
+            "mainClass": "June_2026.LambdaApp",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Lambda",
+            "request": "launch",
+            "mainClass": "June_2026.Lambda",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "countVowel",
             "request": "launch",
             "mainClass": "June_2026.countVowel",

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OddFromList",
+            "request": "launch",
+            "mainClass": "June_2026.OddFromList",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDulpicate",
+            "request": "launch",
+            "mainClass": "June_2026.RemoveDulpicate",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Sort",
+            "request": "launch",
+            "mainClass": "June_2026.Sort",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "Square",
+            "request": "launch",
+            "mainClass": "June_2026.Square",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumUseStream",
+            "request": "launch",
+            "mainClass": "June_2026.EvenNumUseStream",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "FilterData",
             "request": "launch",
             "mainClass": "June_2026.FilterData",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sap",
+            "request": "launch",
+            "mainClass": "June_2026.Sap",
+            "projectName": "java_practice_2fd590ec"
+        },
+        {
+            "type": "java",
             "name": "AppOfComsumer",
             "request": "launch",
             "mainClass": "AppOfComsumer",

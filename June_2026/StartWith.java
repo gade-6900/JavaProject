@@ -7,4 +7,4 @@ public class StartWith{
 
         list.stream().filter(n -> n.startsWith("A")).forEach(System.out::println);
     }
-}
+} 
